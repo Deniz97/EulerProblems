@@ -1,5 +1,5 @@
 
-public class Problem3maxPrime {
+public class EulerProblems {
 	
 	public static void main(String[] args)
 	{
@@ -15,16 +15,6 @@ public class Problem3maxPrime {
 	}
 	
 	public static boolean checkPrime(long sayi){
-		if (sayi % 2 == 0) return false;
-		for(long i=3;i*i<=sayi;i+=2){
-			if(sayi%i==0)
-				return false;
-		}
-		return true;
-	}
-
-	public static boolean checkPrime(int sayi){
-		if (sayi % 2 == 0) return false;
 		for(long i=3;i*i<=sayi;i+=2){
 			if(sayi%i==0)
 				return false;

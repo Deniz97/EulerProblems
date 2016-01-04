@@ -19,7 +19,6 @@ public class Problem4Palindrome {
     };
     
     public static void main(String[] args) {
-    	outerLoop:
     	for(int i =999;i>=100;i--) {
         for(int j=999;j>=100;j--){
             if (CheckIfPalindrome(i*j) && i*j>500000) {
