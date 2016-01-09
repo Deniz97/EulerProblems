@@ -16,7 +16,7 @@ public class Problem3maxPrime {
 	
 	public static boolean checkPrime(long sayi){
 		if (sayi % 2 == 0) return false;
-		for(long i=3;i*i<=sayi;i+=2){
+		for(int i=3;i*i<=sayi;i+=2){
 			if(sayi%i==0)
 				return false;
 		}
@@ -25,7 +25,7 @@ public class Problem3maxPrime {
 
 	public static boolean checkPrime(int sayi){
 		if (sayi % 2 == 0) return false;
-		for(long i=3;i*i<=sayi;i+=2){
+		for(int i=3;i*i<=sayi;i+=2){
 			if(sayi%i==0)
 				return false;
 		}
